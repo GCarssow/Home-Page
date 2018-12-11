@@ -1,0 +1,319 @@
+body {
+  background-color: white;
+}
+
+.history {
+  background-color: #3498DB;
+}
+/* #container {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+} */
+h1 {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Headline {
+  background-image: url(https://castlemarne.com/wp-content/uploads/2015/06/5319455218_698bbd7ac2_b.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-width: thick;
+  border-style: solid;
+  padding-bottom: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.Headline_left {
+  border-width: thick;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.links {
+  text-decoration: underline;
+  color: white
+}
+.Headline_right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 30px;
+  padding-right: 150px;
+}
+
+#bio {
+  font-size: 20px;
+  font-family: fantasy;
+  color: darkred
+}
+
+#career_header {
+  font-size: 32px;
+}
+
+a {
+  font-size: 20px;
+  width: auto;
+  padding: 5px;
+}
+
+.about_Me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: green;
+  border-width: thick;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+    
+nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+    
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: green;
+  border-color: black;
+  border-style: solid;
+  border-width: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+    
+.bottom_left {
+  display: flex;
+  flex-direction: column;
+  border-width: thick;
+  border-style: solid;
+  height: 250px;
+  width: 300px;
+}
+    
+.bottom_middle {
+  display: flex;
+  flex-direction: column;
+  border-width: thick;
+  border-style: solid;
+  height: 250px;
+  width: 300px;
+}
+    
+.bottom_right {
+  display: flex;
+  flex-direction: column;
+  border-width: thick;
+  border-style: solid;
+  height: 250px;
+  width: 300px;
+}
+    
+h2 {
+  font-size: 25px;
+}
+
+.dogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 650px;
+}
+
+
+/* Dropdown menus */
+
+
+.home_button {
+  background-color: #3498DB;
+  padding: 16px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+    
+.dropbtn1 {
+  background-color: #3498DB;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+    
+.dropbtn1:hover, .dropbtn1:focus {
+  background-color: #3498DB;
+}
+    
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+    
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+    
+.dropdown-content1 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #3498DB;
+}
+
+.show {
+  display: block;
+}
+  
+.dropbtn2 {
+  background-color: #3498DB;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+  background-color: #3498DB;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: black;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn3 {
+  background-color: #3498DB;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn3:hover, .dropbtn3:focus {
+  background-color: #3498DB;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a:hover {
+  background-color: black;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn4 {
+  background-color: #3498DB;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn4:hover, .dropbtn4:focus {
+  background-color: #3498DB;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content4 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content4 a:hover {
+  background-color: black;
+}
+
+.show {
+  display: block;
+}

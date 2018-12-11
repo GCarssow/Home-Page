@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="history">
+      <a class="home_button" href="../index.html">Main Page</a>    
+          <div class="dropdown1" onmouseover="toggleOpen1()" onmouseout="toggleClose1()">
+            <button class="dropbtn1">My Hobbies</button>
+            <div id="myDropdown1" class="dropdown-content1">
+              <a href="../my_hobbies/fitness.html">Fitness</a>
+              <a href="../my_hobbies/rpg.html">Tabletop RPGs</a>
+              <a href="../my_hobbies/scuba.html">SCUBA Diving</a>
+            </div>
+          </div>
+          <div class="dropdown2" onmouseover="toggleOpen2()" onmouseout="toggleClose2()">
+            <button class="dropbtn2">Personal life</button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="../personal_life/courtney.html">My wife and kid</a>
+              <a href="../personal_life/dogs.html">My Dogs</a>
+              <a href="../personal_life/life_story.html">My Background</a>
+            </div>
+          </div>
+        
+        <div class="dropdown4" onmouseover="toggleOpen4()" onmouseout="toggleClose4()">
+          <button class="dropbtn4">Projects</button>
+          <div id="myDropdown4" class="dropdown-content4">
+            <a href="https://p2-project-a920d.firebaseapp.com/">Dad Joke Generator</a>
+            <a href="https://island-drinks.firebaseapp.com/">Island Drinks Selector</a>
+            <a href="https://mojobtake4.firebaseapp.com/landing">Mo Jobs, Less Probs</a>
+            <a href="https://p3-project-workout-directory.firebaseapp.com/">Workout and Exercise Database</a>
+          </div>
+      </div>
+  </div>
+    <h4><strong>Fitness has always been a big part of my life.  I'm a former Army Captain, and I didn't stop enjoying working out when I left the Service.</strong></h4>
+    <img src="working_out.jpg" alt="Definitely not me">
+    <p>Definitely not me.</p>
+    <h4>For one of my projects, I decided to make a Workout and Exercise database, which could give you both a random workout for the day, but also 
+      provides you with an archive of exercises in case you are unfamiliar with one.  You can even add new workouts and exercises as you go!
+      The link is located above in my dropdown menu under "a few projects", or just click here.
+    </h4>
+    <a href="https://p3-project-workout-directory.firebaseapp.com/">Workout and Exercise Database</a>
+    <h4>So what was involved in making this Workout Application?</h4>
+    <ul>
+        <li>I built the entire thing in React.  Front-End Frameworks are really the wave of the future.  To be blunt I didn't 
+          appreciate their utility until I started working on this site, and realized the benefits of component-based architecture.
+        </li>
+        <br>
+        <li>A lot of the stuff on it I had to teach myself how to do.  I wanted to ensure that it had a functioning ability to pull a random workout from the database 
+          (it's amazing how many incorrect ways are published on the Web about how to pull a random object from a database)
+        </li>
+        <br>
+        <li>Likewise, I had to teach myself how to integrate the API I had created with React as well.  To be honest, once I got the hang of it, 
+          I was sort of surprised that it wasn't as difficult as I expected it to be.
+        </li>
+        <br>
+        <li>My next hope is to eventually refactor my entire personal site with React.</li>
+    </ul>
+    <script src="../awesome.js"></script>
+  </body>
+</html>
